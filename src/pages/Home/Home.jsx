@@ -20,7 +20,7 @@ const HomePageContentWrapper = styled.div`
     left: 8rem;
     @media(max-width: 768px){
         left: 4rem;
-        top: 15rem;
+        top: 10rem;
     }
 `;
 
@@ -33,8 +33,8 @@ export default function Home() {
     return (
         <HomePageContentWrapper>
             <HomePageContentTitle>Hi, I'm Aniket</HomePageContentTitle>
-            <HomePageContentHeading>Front End Developer</HomePageContentHeading>
-            <HomePageContentDesc>UI Engineer, Tech Savy✌️</HomePageContentDesc>
+            <HomePageContentHeading>Associate Technology L2 at Publicis Sapient</HomePageContentHeading>
+            <HomePageContentDesc>Front-end Developer, Tech Savy✌️</HomePageContentDesc>
             <LinkButton path='/about'>Know more</LinkButton>
         </HomePageContentWrapper>
     )

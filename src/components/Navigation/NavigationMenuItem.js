@@ -11,6 +11,11 @@ const menuItem = [
     },
     {
         id: 3,
+        name: 'work',
+        path: 'work',
+    },
+    {
+        id: 4,
         name: 'contact',
         path: 'contact',
     }
