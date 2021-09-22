@@ -15,6 +15,11 @@ const menuItem = [
         path: 'work',
     },
     {
+        id: 5,
+        name: 'skills',
+        path: 'skills',
+    },
+    {
         id: 4,
         name: 'contact',
         path: 'contact',

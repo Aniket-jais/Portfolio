@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Layout from "./components/Layout/Layout";
 import Contact from "./pages/Contact/Contact";
 import Work from "./pages/Work/Work";
+import Skills from "./pages/Skills/Skills";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/work' component={Work} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/skills' component={Skills} />
         </Switch>
       </Layout>
-
     </div>
   );
 }
